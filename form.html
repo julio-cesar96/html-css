@@ -15,7 +15,50 @@
         <button type="submit"> Enviar dados</button>
         <button type="reset"> Limpar form </button>
         <button type="button"> Sem ação </button>
-
+    </form>
+    <br>
+    <h2> Input do tipo radio </h2>
+    <form>
+        <span> Masculino </span>
+        <input type="radio" name="genero" value="masculino">
+        <span> Feminino </span>
+        <input type="radio" name="genero" value="feminino">
+        <span> Prefiro não informar</span>
+        <input type="radio" name="genero" value="outro">
+    </form>
+    <br>
+    <h2> Input com tipo checkbox</h2>
+    <form>
+        <div>
+            <input type="checkbox" name="termos" value="1">
+            <input type="checkbox" name="termos" value="2">
+            Declaro que li novos termos de uso.
+        </div>
+    </form>
+    <br>
+    <h2> Form do tipo option</h2>
+    <form>
+        <select name="tamanhos">
+            <option value="G"> G </option>
+            <option value="GG"> GG </option>
+            <option value="XG"> XG </option>
+        </select>
+    </form>
+    <br>
+    <h2> Form com Fieldset</h2>
+    <form>
+        <fieldset>
+            <legend> Dados pessoais</legend>
+            <label for="nome"> Nome</label>
+            <input type="text" name="nome" id="nome" />
+            <label for="sobrenome"> Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" />
+        </fieldset>
+        <fieldset>
+            <legend> Dados financeiros </legend>
+            <label for="renda"> Renda</label>
+            <input type="text" name="renda" id="renda" />
+        </fieldset>
     </form>
 </body>
 </html>
