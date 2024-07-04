@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: blanchedalmond;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+section {
+    background-color: #fff;
+    background-image: url("https://live.mdnplay.dev/en-US/docs/Web/CSS/background-position/startransparent.gif");
+    background-size: contain;
+}
+
+section article {
+    font-weight: 700;
+}
+.texto {
+    color: #f15c2a; 
+
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
