@@ -1,40 +1,32 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     background-color: blanchedalmond;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exemplo {
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 32px;
+    width: 110px;
+    height: 110px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fcb228;
+    margin: 20px 50px;
+    border: 20px solid #fff;
+    border-bottom-style: dashed;
     
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
 }
-
-section {
-    background-color: #fff;
-    background-image: url("https://live.mdnplay.dev/en-US/docs/Web/CSS/background-position/startransparent.gif");
-    background-size: contain;
-}
-
-section article {
-    font-weight: 700;
-}
-.texto {
-    color: #f15c2a; 
-
-    font-style: italic;
-    font-weight: 500;
-    font-size: 18px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-    text-align: center;
-}
-
-ul {
-    list-style-type: square;
-}
-
-a {
-    text-decoration: none;
-    font-size: 24px;
-}
-
