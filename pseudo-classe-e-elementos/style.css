@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.btn {
+    width: 200px;
+    height: 60px;
+    font-weight: 500;
+    border: 1px solid #000;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    font-weight: 800;
+    background-color: #f15c2a;
+    color: #fff;
+    border: 1px solid #f15c2a;
+}
+
+.btn-secondary {
+    font-weight: 800;
+    background-color: #fff;
+    color: #f15c2a;
+    border: 1px solid #f15c2a;
+}
+
+.btn-primary:hover{
+    background-color: #fb845d;
+}
+
+.btn-primary:focus{
+    background-color: #752a11;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.meu-item {
+    color: red;
+}
+
+li:not(.meu-item) {
+    color: blue;
+}
+
+li::marker {
+    color: violet;
+}
+
+option::checked{
+    color: red;
+}
+
+input[type="text"]:disabled {
+    background-color: #cdd;
+}
+
+input::placeholder {
+    color: blue;
+}
+
+label::first-letter {
+    color: #f15c2a;
+    text-transform: uppercase;
+}
+
+p::selection {
+    color: red;
+    font-size: 40px;
+}
