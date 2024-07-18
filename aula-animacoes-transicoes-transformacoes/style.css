@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.linear-gradiente {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, red, blue);
+}
+
+.radial-gradiente {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient( violet, green);
+}
+
+.transform-translate {
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    transform: translate(30px, 50px);
+}
+
+.transform-rotate {
+    background-color: violet;
+    width: 400px;
+    height: 400px;
+    transform: rotate(30deg);
+}
+
+.transform-scale {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transform: scale(3,1);
+}
+
+.transform-skew {
+    background-color: lawngreen;
+    width: 200px;
+    height: 200px;
+    transform: skew(25deg);
+}
+
+.hover-transition {
+    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+    transition: all 3s;
+}
+
+.hover-transition:hover{
+    height: 300px;
+    width: 800px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    transition: all 3s;
+}
+
+input:focus {
+    width: 250px;
+    font-size: 30px;
+    background-color: ghostwhite;
+}
+
+
+h1 {
+    animation-duration: 3s;
+    animation-name: piscar;
+    animation-iteration-count: infinite;
+}
+
+@keyframes piscar {
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.animation-growth {
+    width: 200px;
+    height: 100px;
+    background: blue;
+
+    animation-name: crescer;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+@keyframes crescer {
+    0%{ width: 200px;}
+    25%{ width: 300px;}
+    50%{ width: 200px; background-color: azure;}
+    75%{ width: 300px;}
+    100%{ width: 200px; background-color: blue;}
+}
+
