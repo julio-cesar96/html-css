@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-flex {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: auto;
+    flex-direction: row;
+}
+
+header, footer {
+    background-color: yellow;
+}
+
+aside, nav {
+    background-color: gray;
+    width: 20%;
+}
+
+article {
+    background-color: lightgrey;
+    width: 60%;
+}
+
+article, nav, aside, header, footer {
+    padding: 4px;
+    margin: 4px;
+}
